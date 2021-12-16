@@ -1,0 +1,126 @@
+.colorTheme1{
+    color: #FE5858 !important;
+}
+.line-theme{
+    width: 120px;
+    height: 2px;
+    background-color: #E0E0E0;
+    margin: 0 auto;
+}
+.line-tab{
+    width: 200px;
+    height: 2px;
+    background-color: #E0E0E0;
+}
+.buttonTheme1{
+    background: transparent linear-gradient(277deg, #EE9617 0%, #FE5858 100%) 0% 0% no-repeat padding-box;
+    border-radius: 30px;
+    padding: 10px;
+    text-align: center;
+}
+.backgrad{
+    background: transparent linear-gradient(277deg, #EE9617 0%, #FE5858 100%) 0% 0% no-repeat padding-box;
+}
+.buttonTheme1 a{
+    color: white !important;
+}
+.textCard{
+    font-weight: bold;
+    margin-left: 10px;
+    font-size: 22px;
+}
+.serviceCenter{
+    text-align: center;
+}
+.backTheme{
+    background-color: #EE9617;
+}
+.colorTab{
+    color: #EE9617;
+}
+.grayColor{
+    color: #B1B1C2 !important;
+}
+.ulTab li{
+    margin-right: 5px;
+    float:left;
+    display:block; 
+}
+.grayButton{
+    padding: 7px;
+    border: 1px #B1B1C2 solid;
+    border-radius: 20px;
+    width: 260px;
+    text-align: center;
+}
+.grayButton a{
+    color: #B1B1C2;
+}
+.imgTab1{
+    width: 70px;
+    height: 70px;
+}
+.imgTab2{
+    margin-left: 40px;
+    margin-top: 40px;
+    width: 300px;
+    height: 300px;
+}
+.pousseline{
+    margin-top: -1px;
+}
+.imgCarton{
+    width: 350px;
+    height: 250px;
+}
+.aeroport{
+    color: #FE5858;
+}
+.serv{
+    color: #160637;
+}
+.cercle {  
+    background-color: #EE9617;
+    padding:2px;
+    border-radius: 100%;
+}
+.pad{
+    padding-top: 70px;
+}
+.star i{
+    color: #EE9617;
+}
+.imgC{
+    object-fit: cover;
+    height: 210px !important;
+}
+.tc{
+    margin: 0 auto;
+}
+.emailP{
+    border: 1px white solid;
+    color: white;
+}
+.textfooter{
+
+}
+.pick{
+    padding-top: 120px;
+}
+.foot{
+    margin-top: 160px;
+}
+.nav li a{
+    /* color: white !important; */
+}
+.nav li a.active{
+    color: black !important;
+    z-index: 9;
+}
+.buttonheader{
+    border: 1px #EE9617 solid;
+    padding: 6px;
+    color: #EE9617 !important;
+    font-size: 13px;
+    border-radius: 40px;
+}
