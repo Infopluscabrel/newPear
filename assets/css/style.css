@@ -1,5 +1,30 @@
+@font-face {
+    font-family: "Milliard-Bold";
+    src: url("../fonts/perso/Milliard-SemiBold.woff");
+  }
+  @font-face {
+    font-family: "Milliard-Book";
+    src: url("../fonts/perso/Milliard-Book.woff");
+  }
+  .fontBold{
+    font-family: "Milliard-Bold";
+  }
+  .fontBook{
+    font-family: "Milliard-Book";
+  }
+  .imgCard{
+      height: 250px;
+      object-fit: cover;
+  }
+  .details1{
+      color: black;
+      background-color: #E0E0E0;
+  }
 .colorTheme1{
     color: #FE5858 !important;
+}
+.colorTextTheme{
+    color: #4da6e7;
 }
 .line-theme{
     width: 120px;
