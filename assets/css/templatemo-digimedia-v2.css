@@ -965,7 +965,7 @@ Banner Style
   z-index: 1;
 }
 
-.main-banner:before {
+/* .main-banner:before {
   content: "";
   background-image: url(../images/slider-right-dec.jpg);
   background-repeat: no-repeat;
@@ -975,7 +975,7 @@ Banner Style
   width: 1159px;
   height: 797px;
   z-index: -1;
-}
+} */
 
 .main-banner .left-content {
   margin-right: 15px;
@@ -2021,9 +2021,9 @@ responsive
     text-align: center;
     padding: 226px 0px 30px 0px;
   }
-  .main-banner:before {
+  /* .main-banner:before {
     display: none;
-  }
+  } */
   .main-banner .right-image {
     margin: 30px auto 0px auto;
     text-align: center;
