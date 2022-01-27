@@ -21,6 +21,31 @@
     <link rel="stylesheet" href="assets/css/animated.css">
     <link rel="stylesheet" href="assets/css/owl.css">
     <link rel="stylesheet" href="assets/css/style.css">
+ 
+
+
+    <style>
+      .carousel {
+        margin-top: 80px;
+      }
+
+      .carousel-item {
+        height: 100%;
+      }
+
+      .imgCarton {
+        height: 50 px;
+      }
+      .carousel-caption{
+        color: black ;
+      }
+
+      .carousel-caption>p{
+        color: black ;
+      }
+
+
+    </style>
 </head>
 
 <body>
@@ -51,8 +76,8 @@
 <!-- Pre-header End -->
 
 <!-- ***** Header Area Start ***** -->
-<header class="header-area header-sticky wow slideInDown bg-transparent" data-wow-duration="0.75s" data-wow-delay="0s">
-    <div class="position-relative">
+<header class="header-area header-sticky wow slideInDown bg-transparent " data-wow-duration="0.75s" data-wow-delay="0s">
+    <div class="position-relative ">
         <div class="container">
             <div class="row">
                 <div class="col-12">
@@ -82,52 +107,88 @@
     </div>
 </header>
 <!-- ***** Header Area End ***** -->
-<div style="z-index: 99; position: relative">
-    <div class="main-banner wow fadeIn position-relative pt-0" id="top">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12 mt-5">
-                    <br><br><br><br>
-                    <div class="row h-auto align-items-center">
-                        <div class="col-lg-6 align-self-center">
-                            <div class="left-content show-up header-text wow fadeInLeft">
-                                <div class="row">
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-lg-6">
-                            <div class="right-image wow fadeInRight">
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
+
+<!-- main service slide -->
+
+  
+<!-- \End  Carousel wrapper -->
+    
+<div id="carouselExampleInterval" class="carousel slide  carousel-fade h-100" data-bs-ride="carousel">
+
+  <div class="carousel-indicators">
+    <button type="button" data-bs-target="#carouselExampleInterval" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+    <button type="button" data-bs-target="#carouselExampleInterval" data-bs-slide-to="1" aria-label="Slide 2"></button>
+    <button type="button" data-bs-target="#carouselExampleInterval" data-bs-slide-to="2" aria-label="Slide 3"></button>
+  </div>
+
+  
+
+  <div class="carousel-inner h-50">
+    <div class="carousel-item active" data-bs-interval="1500" id="carouselExampleIndicator" >
+      <img src="assets/images/perso/consulting/investisseur.png" class="imgCarton mx-5 w-100 h-30 " alt="">
+      <div class="carousel-caption">
+        <h1> Mise en relation entre investisseurs chinois - Africains  </h1>
+          <p> Nous vous mettons en contact avec des professionels </p>
+          <p><a class="btn btn-sm btn-primary" href="#">ouvrir un dossier </a></p>
+      </div>
     </div>
+    <div class="carousel-item" data-bs-interval="3000" >
+      <img src="assets/images/perso/consulting/commercial1.png" class="imgCarton mx-5 w-100 h-30" alt="">
+      <div class="carousel-caption text-white" >
+        <h1>Intermediation Commerciale </h1>
+        <p class=" text-white">Facilitation d'Achats
+          Traitement des Commandes
+          Suivi des Commandes et Livraisons
+        </p>
+        <p><a class="btn btn-sm btn-primary" href="#" > Nous contacter </a></p>
+      </div>
+    </div>
+    <div class="carousel-item" data-bs-interval="3000">
+      <img src="assets/images/perso/consulting/pickup1.png" class="imgCarton mx-5 w-100 h-30 " alt="">
+      <div class="carousel-caption">
+        <h1>  pickup a l' aeroport </h1>
+          <p>  Nous venons vous chercher des votre arrive en chine pour un accompagnement de qualite</p>
+          <p><a class="btn btn-sm btn-primary" href="#"> Prendre un rendez vous </a></p>
+      </div>
+    </div>
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
 </div>
 
-<div class="container">
-    <div class="row">
-      <div class="col-lg-12">
-        <div class="section-heading  wow fadeInDown" data-wow-duration="1s" data-wow-delay="0.5s">
-          <div class="line-theme"></div>
-          <h4 class="pt-2 serviceCenter"><em class="colorTheme1">Consulting</em></h4>
-          
-        </div>
-      </div>
-      <div class="col-lg-12">
-        <div class="container pick">
+<div class="row">
+
+
+      <div class="col-lg-12 col-12">
+        <div class="container ">
           <div class="row">
-            <div class="col-6">
+            
+
+            <div class="col-md-6 col-xs-12 pt-5">
+              <br>
+              <br>
+              <h2 class="serv">Mise en relation investisseurs Chinois et Africains</h3>
+              <div class="line-tab mt-4"></div>
+              <p class="mt-3">
+                Notre but est de donner de la visibilité à des investisseurs ou entrepreneurs Chinois qui sont intéressés à vendre, acheter ou investir en Afrique et vice versa. Nous vous mettons en contact avec des professionnels de votre domaine, investisseurs, entrepreneurs commerçants.
+
+              </p>
+              
+            </div>
+            <div class="col-md-6 col-xs-12 pt-5">
+              <br><br><br>
               <img src="assets/images/perso/consulting/relation.jpg" class="imgCarton mx-5" alt="">
             </div>
-            <div class="col-6">
-              <h2 class="serv">Mise en relation investisseurs</h3>
-              <h2 class="aeroport">Chinois et Africains</h3>
-              <div class="line-tab mt-3"></div>
-              <p class="mt-2">Notre but est de donner de la visibilité à des investisseurs ou entrepreneurs Chinois qui sont intéressés à vendre, acheter ou investir en Afrique et vice versa. Nous vous mettons en contact avec des professionnels de votre domaine, investisseurs, entrepreneurs commerçants.</p>
-            </div>
-            <div class="col-6 pt-5">
+
+        </div>
+        <div class="row">
+            <div class="col-md-6 col-xs-12 pt-5">
               <br>
               <br><br>
               <h2 class="serv">Intermédiation commerciale</h3>
@@ -135,45 +196,59 @@
               <p class="mt-2">Nous vous mettons en contact avec les meilleurs fournisseurs, des usines.</p>
               
             </div>
-            <div class="col-6 pt-5">
+            <div class="col-md-6 col-xs-12 pt-5">
               <br><br><br>
               <img src="assets/images/perso/commerce.jpg" class="imgCarton mx-5" alt="">
             </div>
-            <div class="col-6">
-              <br><br><br>
-              <img src="assets/images/perso/colis.png" class="imgCarton mx-5" alt="">
-            </div>
-            <div class="col-6 pt-5">
-              <br><br><br>
-              <h2 class="serv">Pick up a</h3>
-              <h2 class="aeroport">l’aéroport</h3>
-              <div class="line-tab mt-3"></div>
-              <p class="mt-2">Nous venons vous accueillir  à l’aéroport. Nous avons des agents  ponctuels, souriants, disponibles et chaleureux, qui aiment rendre service, conseiller et accompagner.</p>
-            </div>
-            <div class="col-6 pt-5">
+      </div>
+      <div class="row">
+
+            <div class="col-md-6 col-xs-12 pt-5">
               <br>
               <br><br>
-              <h2 class="serv">Service de guide trilingue</h3>
+              <h2 class="serv">Pick up a l’aéroport</h3>
               <div class="line-tab mt-3"></div>
-              <p class="mt-2">Nous mettons à votre disposition un guide qui vous accompagne durant votre séjour.</p>
+              <p class="mt-2">Nous venons vous accueillir  à l’aéroport. Nous avons des agents  ponctuels, souriants, disponibles et chaleureux, qui aiment rendre service, conseiller et accompagner.</p>
               
             </div>
-            <div class="col-6 pt-5">
-              <br><br><br>
-              <img src="assets/images/perso/trilingue.jpg" class="imgCarton mx-5" alt="">
-            </div>
-            <div class="col-6">
+            <div class="col-md-6 col-xs-12 pt-5">
               <br><br><br>
               <img src="assets/images/perso/colis.png" class="imgCarton mx-5" alt="">
             </div>
-            <div class="col-6 pt-5">
-              <br><br><br>
-              <h2 class="serv">Reservation</h3>
-              <h2 class="aeroport">d’hotel</h3>
+
+       </div>
+
+       <div class="row">  
+                <div class="col-md-6 col-xs-12 pt-5">
+                  <br>
+                  <br><br>
+                  <h2 class="serv">Service de guide trilingue</h3>
+                  <div class="line-tab mt-3"></div>
+                  <p class="mt-2">Nous mettons à votre disposition un guide qui vous accompagne durant votre séjour.</p>
+                  
+                </div>
+                <div class="col-md-6 col-xs-12 pt-5">
+                  <br><br><br>
+                  <img src="assets/images/perso/trilingue.jpg" class="imgCarton mx-5" alt="">
+                </div>
+          </div>
+
+          <div class="row"> 
+            <div class="col-md-6 col-xs-12 pt-5">
+              <br>
+              <br><br>
+              <h2 class="serv">Reservation d’hotel</h3>
               <div class="line-tab mt-3"></div>
-              <p class="mt-2"></p>
+              <p class="mt-2">Nous vous garantissons un hotel d'accueil des votre arrive en Chine pour pouvoir avancer sur vos taches principales .</p>
+              
             </div>
+            <div class="col-md-6 col-xs-12 pt-5">
+              <br><br><br>
+              <img src="assets/images/perso/colis.png" class="imgCarton mx-5" alt="">
+            </div>
+
         </div>
+
       </div>
     </div>
   </div>
@@ -206,5 +281,12 @@
 <script src="assets/js/imagesloaded.js"></script>
 <script src="assets/js/custom.js"></script>
 
+<script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+<script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+
+
 </body>
+
+
+
 </html>
