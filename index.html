@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -21,7 +21,17 @@
     <link rel="stylesheet" href="assets/css/animated.css">
     <link rel="stylesheet" href="assets/css/owl.css">
     <link rel="stylesheet" href="assets/css/style.css">
-</head>
+
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+<link href="assets/css/google-translate.css" rel="stylesheet">
+
+
+    <style>
+    
+#goog-gt-tt {display:none;visibility: hidden;}
+    </style>
+
+  </head>
 
 <body>
   <!-- ***** toute l'application ***** -->
@@ -70,13 +80,23 @@
                             <li class="scroll-to-section"><a href="#" class="active">Accueil</a></li>
                             <li class="scroll-to-section"><a href="#">Contactez-nous</a></li>
                             <li class="scroll-to-section"><a href="#">A Propos</a></li>
+ 
+                            <li>
+                              <div id="google_translate_element" style="display: flex;"></div>
+                            </li>
                             <li class="scroll-to-section">
                                 <div class="buttonheader" id="#services">Commencez-maintenant</div>
                             </li>
+                           
                         </ul>
                         <a class='menu-trigger'>
                             <span>Menu</span>
                         </a>
+
+                        <!-- Flag click handler -->
+                        
+
+
                         <!-- ***** Menu End ***** -->
                     </nav>
                 </div>
@@ -84,6 +104,9 @@
         </div>
     </div>
 </header>
+
+
+
 <!-- ***** Header Area End ***** -->
 <div style="z-index: 99; position: relative">
     <div class="main-banner wow fadeIn position-relative pt-0" id="top" data-wow-duration="1s" data-wow-delay="0.5s">
@@ -126,6 +149,9 @@
         </div>
     </div>
 </div>
+
+
+
 
 <div class="container">
     <div class="row">
@@ -384,6 +410,7 @@
 <script src="assets/js/animation.js"></script>
 <script src="assets/js/imagesloaded.js"></script>
 <script src="assets/js/custom.js"></script>
+<script type="text/javascript" src="https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
 
 </body>
 </html>
