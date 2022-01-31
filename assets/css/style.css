@@ -1,155 +1,182 @@
 @font-face {
-    font-family: "Milliard-Bold";
-    src: url("../fonts/perso/Milliard-SemiBold.woff");
-  }
-  @font-face {
-    font-family: "Milliard-Book";
-    src: url("../fonts/perso/Milliard-Book.woff");
-  }
-  .fontBold{
-    font-family: "Milliard-Bold";
-  }
-  .fontBook{
-    font-family: "Milliard-Book";
-  }
-  .imgCard{
-      height: 250px;
-      object-fit: cover;
-  }
-  .details1{
-      color: black;
-      background-color: #E0E0E0;
-  }
-.colorTheme1{
-    color: #FE5858 !important;
+  font-family: "Milliard-Bold";
+  src: url("../fonts/perso/Milliard-SemiBold.woff");
 }
-.colorTextTheme{
-    color: #4da6e7;
+@font-face {
+  font-family: "Milliard-Book";
+  src: url("../fonts/perso/Milliard-Book.woff");
 }
-.line-theme{
-    width: 120px;
-    height: 2px;
-    background-color: #E0E0E0;
-    margin: 0 auto;
+.fontBold {
+  font-family: "Milliard-Bold";
+}
+.fontBook {
+  font-family: "Milliard-Book";
+}
+.imgCard {
+  height: 250px;
+  object-fit: cover;
+}
+.details1 {
+  color: black;
+  background-color: #e0e0e0;
+}
+.smenu {
+  margin-top: -7px;
+}
+.colorTheme1 {
+  color: #fe5858 !important;
+}
+.colorTextTheme {
+  color: #4da6e7;
+}
+.line-theme {
+  width: 120px;
+  height: 2px;
+  background-color: #e0e0e0;
+  margin: 0 auto;
 }
 .app {
-    width: 100%;
-    height: 100%;
+  width: 100%;
+  height: 100%;
 }
-.line-tab{
-    width: 200px;
-    height: 2px;
-    background-color: #E0E0E0;
+.line-tab {
+  width: 200px;
+  height: 2px;
+  background-color: #e0e0e0;
 }
-.buttonTheme1{
-    background: transparent linear-gradient(277deg, #EE9617 0%, #FE5858 100%) 0% 0% no-repeat padding-box;
-    border-radius: 30px;
-    padding: 10px;
-    text-align: center;
+.buttonTheme1 {
+  background: transparent linear-gradient(277deg, #ee9617 0%, #fe5858 100%) 0%
+    0% no-repeat padding-box;
+  border-radius: 30px;
+  padding: 10px;
+  text-align: center;
 }
-.backgrad{
-    background: transparent linear-gradient(277deg, #EE9617 0%, #FE5858 100%) 0% 0% no-repeat padding-box;
+.backgrad {
+  background: transparent linear-gradient(277deg, #ee9617 0%, #fe5858 100%) 0%
+    0% no-repeat padding-box;
 }
-.buttonTheme1 a{
-    color: white !important;
+.buttonTheme1 a {
+  color: white !important;
 }
-.textCard{
-    font-weight: bold;
-    margin-left: 10px;
-    font-size: 22px;
+.textCard {
+  font-weight: bold;
+  margin-left: 10px;
+  font-size: 22px;
 }
-.serviceCenter{
-    text-align: center;
+.serviceCenter {
+  text-align: center;
 }
-.backTheme{
-    background-color: #EE9617;
+.backTheme {
+  background-color: #ee9617;
 }
-.colorTab{
-    color: #EE9617;
+.colorTab {
+  color: #ee9617;
 }
-.grayColor{
-    color: #B1B1C2 !important;
+.grayColor {
+  color: #b1b1c2 !important;
 }
-.ulTab li{
-    margin-right: 5px;
-    float:left;
-    display:block; 
+.ulTab li {
+  margin-right: 5px;
+  float: left;
+  display: block;
 }
-.grayButton{
-    padding: 7px;
-    border: 1px #B1B1C2 solid;
-    border-radius: 20px;
-    width: 260px;
-    text-align: center;
+.grayButton {
+  padding: 7px;
+  border: 1px #b1b1c2 solid;
+  border-radius: 20px;
+  width: 260px;
+  text-align: center;
 }
-.grayButton a{
-    color: #B1B1C2;
+.grayButton a {
+  color: #b1b1c2;
 }
-.imgTab1{
-    width: 70px;
-    height: 70px;
+.imgTab1 {
+  width: 70px;
+  height: 70px;
 }
-.imgTab2{
-    margin-left: 40px;
-    margin-top: 40px;
-    width: 300px;
-    height: 300px;
+.imgTab2 {
+  margin-left: 40px;
+  margin-top: 40px;
+  width: 300px;
+  height: 300px;
 }
-.pousseline{
-    margin-top: -1px;
+.pousseline {
+  margin-top: -1px;
 }
-.imgCarton{
-    width: 350px;
-    height: 250px;
+.imgCarton {
+  width: 100%;
+  height: 350px;
+  object-fit: cover !important;
 }
-.aeroport{
-    color: #FE5858;
+.aeroport {
+  color: #fe5858;
 }
-.serv{
-    color: #160637;
+.serv {
+  color: #160637;
 }
-.cercle {  
-    background-color: #EE9617;
-    padding:2px;
-    border-radius: 100%;
+.cercle {
+  background-color: #ee9617;
+  padding: 2px;
+  border-radius: 100%;
 }
-.pad{
-    padding-top: 70px;
+.pad {
+  padding-top: 70px;
 }
-.star i{
-    color: #EE9617;
+.star i {
+  color: #ee9617;
 }
-.imgC{
-    object-fit: cover;
-    height: 210px !important;
+.imgC {
+  object-fit: cover;
+  height: 210px !important;
 }
-.tc{
-    margin: 0 auto;
+.tc {
+  margin: 0 auto;
 }
-.emailP{
-    border: 1px white solid;
-    color: white;
+.emailP {
+  border: 1px white solid;
+  color: white;
 }
-.textfooter{
+.textfooter {
+}
+.pick {
+  padding-top: 120px;
+}
+.foot {
+  margin-top: 160px;
+}
+.nav li a {
+  /* color: white !important; */
+}
+.nav li a.active {
+  color: black !important;
+  z-index: 9;
+}
+.buttonheader {
+  border: 1px #ee9617 solid;
+  padding: 6px;
+  color: #ee9617 !important;
+  font-size: 13px;
+  border-radius: 40px;
+}
+.logo {
+  border-bottom-right-radius: 100%;
+}
+.ulColor {
+  color: #afafaf;
+}
+.colorFa {
+  color: rgb(109, 109, 109);
+}
+.goog-te-gadget {
+  color: white !important;
+}
 
-}
-.pick{
-    padding-top: 120px;
-}
-.foot{
-    margin-top: 160px;
-}
-.nav li a{
-    /* color: white !important; */
-}
-.nav li a.active{
-    color: black !important;
-    z-index: 9;
-}
-.buttonheader{
-    border: 1px #EE9617 solid;
-    padding: 6px;
-    color: #EE9617 !important;
-    font-size: 13px;
-    border-radius: 40px;
+@media (max-width: 767px) {
+  .logo {
+    border-bottom-right-radius: 40%;
+    border-bottom-left-radius: 40%;
+  }
+  .contenteMenu {
+    height: 400px;
+  }
 }
